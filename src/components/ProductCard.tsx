@@ -1,4 +1,4 @@
-import { Star, Download, Eye, Heart } from 'lucide-react';
+import { Star, MessageCircle, Eye } from 'lucide-react';
 import type { Product } from '../types';
 
 interface ProductCardProps {
@@ -34,9 +34,6 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
         
         {/* Hover Actions */}
         <div className="absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <button className="p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors">
-            <Heart className="h-4 w-4 text-gray-600" />
-          </button>
           <button 
             onClick={() => onViewDetails(product)}
             className="p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors"
@@ -61,7 +58,7 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
             {product.name}
           </h3>
           <div className="text-right">
-            <span className="text-2xl font-bold text-blue-600">${product.price}</span>
+            <span className="text-2xl font-bold text-blue-600">₹{product.price}</span>
           </div>
         </div>
 
@@ -112,11 +109,13 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
             <span>View Details</span>
           </button>
           <a
-            href={product.downloadUrl}
-            className="px-4 py-2 border border-blue-600 text-blue-600 hover:bg-blue-50 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1"
+            href={`https://wa.me/918591587165?text=Hi, I'm interested in ${encodeURIComponent(product.name)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border border-green-600 text-green-600 hover:bg-green-50 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1"
           >
-            <Download className="h-4 w-4" />
-            <span>Download</span>
+            <MessageCircle className="h-4 w-4" />
+            <span>Contact Sales</span>
           </a>
         </div>
       </div>

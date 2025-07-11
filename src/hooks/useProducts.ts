@@ -5,7 +5,8 @@ import productsData from '../data/products.json';
 const initialFilters: FilterState = {
   searchQuery: '',
   selectedCategory: '',
-  priceRange: { min: 0, max: 200 },
+  // Increase max price to allow displaying higher-priced products (in INR)
+  priceRange: { min: 0, max: 10000 },
   sortBy: 'name-asc',
   selectedTags: [],
 };

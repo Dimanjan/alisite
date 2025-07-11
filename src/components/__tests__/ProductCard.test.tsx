@@ -32,7 +32,7 @@ describe('ProductCard', () => {
 
     expect(screen.getByText('Test Product')).toBeInTheDocument();
     expect(screen.getByText('This is a test product description')).toBeInTheDocument();
-    expect(screen.getByText('$49.99')).toBeInTheDocument();
+    expect(screen.getByText('₹49.99')).toBeInTheDocument();
     expect(screen.getByText('Test Category')).toBeInTheDocument();
     expect(screen.getByText('4.5')).toBeInTheDocument();
     expect(screen.getByText('(100 reviews)')).toBeInTheDocument();

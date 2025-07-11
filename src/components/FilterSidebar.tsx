@@ -135,7 +135,7 @@ export const FilterSidebar = ({
                 <input
                   type="range"
                   min="0"
-                  max="200"
+                  max="10000"
                   step="10"
                   value={filters.priceRange.min}
                   onChange={(e) => onFilterChange({
@@ -143,14 +143,14 @@ export const FilterSidebar = ({
                   })}
                   className="w-full"
                 />
-                <span className="text-sm text-gray-600">${filters.priceRange.min}</span>
+                <span className="text-sm text-gray-600">₹{filters.priceRange.min}</span>
               </div>
               <div>
                 <label className="block text-xs text-gray-600 mb-1">Max Price</label>
                 <input
                   type="range"
                   min="0"
-                  max="200"
+                  max="10000"
                   step="10"
                   value={filters.priceRange.max}
                   onChange={(e) => onFilterChange({
@@ -158,7 +158,7 @@ export const FilterSidebar = ({
                   })}
                   className="w-full"
                 />
-                <span className="text-sm text-gray-600">${filters.priceRange.max}</span>
+                <span className="text-sm text-gray-600">₹{filters.priceRange.max}</span>
               </div>
             </div>
           </div>
@@ -169,8 +169,8 @@ export const FilterSidebar = ({
               <Tag className="h-4 w-4 mr-1" />
               Tags
             </h3>
-            <div className="space-y-2 max-h-40 overflow-y-auto">
-              {tags.slice(0, 20).map((tag) => (
+            <div className="space-y-2 max-h-80 overflow-y-auto">
+              {tags.slice(0, 50).map((tag) => (
                 <label key={tag} className="flex items-center">
                   <input
                     type="checkbox"

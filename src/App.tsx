@@ -62,7 +62,7 @@ function App() {
         />
 
         {/* Main Content */}
-        <main className="flex-1 lg:ml-80 p-6">
+        <main className="flex-1 lg:ml-8 p-6">
           <div className="max-w-7xl mx-auto">
             {/* Hero Section */}
             {!filters.searchQuery && filters.selectedCategory === '' && (

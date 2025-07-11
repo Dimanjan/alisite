@@ -1,4 +1,4 @@
-import { X, Star, Download, Calendar, HardDrive, Monitor, Check } from 'lucide-react';
+import { X, Star, MessageCircle, Calendar, HardDrive, Monitor, Check } from 'lucide-react';
 import type { Product } from '../types';
 
 interface ProductModalProps {
@@ -77,7 +77,7 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
                     {product.name}
                   </h1>
                   <span className="text-3xl font-bold text-blue-600">
-                    ${product.price}
+                    ₹{product.price}
                   </span>
                 </div>
                 
@@ -158,17 +158,16 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
               </div>
 
               {/* Action Buttons */}
-              <div className="flex space-x-3">
+              <div className="flex justify-center">
                 <a
-                  href={product.downloadUrl}
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
+                  href={`https://wa.me/918591587165?text=Hi, I'm interested in ${encodeURIComponent(product.name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
                 >
-                  <Download className="h-5 w-5" />
-                  <span>Download Now</span>
+                  <MessageCircle className="h-5 w-5" />
+                  <span>Contact Sales on WhatsApp</span>
                 </a>
-                <button className="px-6 py-3 border border-gray-300 text-gray-700 hover:bg-gray-50 rounded-lg font-medium transition-colors">
-                  Add to Wishlist
-                </button>
               </div>
             </div>
           </div>

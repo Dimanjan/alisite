@@ -88,7 +88,7 @@
     },
     {
       "id": "5",
-      "name": "AI Content Generator",
+      "name": "AI Content Generator pro",
       "description": "Powerful AI-driven content creation tool for blogs, social media, and marketing copy. Generate quality content in seconds.",
       "price": 59.99,
       "category": "AI Tools",
@@ -261,11 +261,121 @@
       "fileSize": "65 MB",
       "compatibility": ["iOS", "Android"],
       "lastUpdated": "2024-01-16"
+    },
+    {
+      "id": "13",
+      "name": "Notion Pro Plan",
+      "description": "Transform your productivity with Notion Pro - the all-in-one workspace for notes, docs, wikis, and project management. Perfect for teams and individuals who want to organize everything in one place.",
+      "price": 800,
+      "category": "Productivity",
+      "tags": ["productivity", "notes", "workspace", "collaboration", "organization"],
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.8,
+      "reviews": 2340,
+      "downloadUrl": "#",
+      "features": [
+        "Unlimited file uploads",
+        "Version history",
+        "Advanced permissions",
+        "Priority support",
+        "Guest collaboration"
+      ],
+      "fileSize": "50 MB",
+      "compatibility": ["Web", "Windows", "macOS", "iOS", "Android"],
+      "lastUpdated": "2024-02-01"
+    },
+    {
+      "id": "14",
+      "name": "Figma Professional",
+      "description": "Design and prototype with the industry-leading collaborative design tool. Figma Professional offers unlimited projects, advanced prototyping, and team collaboration features.",
+      "price": 1200,
+      "category": "Design",
+      "tags": ["design", "prototyping", "ui-ux", "collaboration", "vector"],
+      "image": "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.9,
+      "reviews": 3456,
+      "downloadUrl": "#",
+      "features": [
+        "Unlimited projects",
+        "Advanced prototyping",
+        "Design systems",
+        "Team libraries",
+        "Version control"
+      ],
+      "fileSize": "120 MB",
+      "compatibility": ["Web", "Windows", "macOS"],
+      "lastUpdated": "2024-02-02"
+    },
+    {
+      "id": "15",
+      "name": "Spotify Premium Family",
+      "description": "Enjoy ad-free music streaming for up to 6 accounts. Access millions of songs, podcasts, and exclusive content with offline downloads and high-quality audio.",
+      "price": 1599,
+      "category": "Entertainment",
+      "tags": ["music", "streaming", "podcasts", "entertainment", "audio"],
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.7,
+      "reviews": 45678,
+      "downloadUrl": "#",
+      "features": [
+        "Ad-free listening",
+        "Offline downloads",
+        "High-quality audio",
+        "6 premium accounts",
+        "Exclusive content"
+      ],
+      "fileSize": "100 MB",
+      "compatibility": ["iOS", "Android", "Windows", "macOS", "Web"],
+      "lastUpdated": "2024-02-03"
+    },
+    {
+      "id": "16",
+      "name": "GitHub Copilot",
+      "description": "Boost your coding productivity with AI-powered code suggestions. GitHub Copilot understands your code and provides intelligent completions across dozens of programming languages.",
+      "price": 1000,
+      "category": "Development",
+      "tags": ["ai", "coding", "programming", "autocomplete", "development"],
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.6,
+      "reviews": 5432,
+      "downloadUrl": "#",
+      "features": [
+        "AI code suggestions",
+        "Multi-language support",
+        "IDE integration",
+        "Context-aware completions",
+        "Learning algorithms"
+      ],
+      "fileSize": "25 MB",
+      "compatibility": ["VS Code", "Visual Studio", "JetBrains IDEs"],
+      "lastUpdated": "2024-02-04"
+    },
+    {
+      "id": "17",
+      "name": "Canva Pro",
+      "description": "Create stunning designs with Canva Pro's premium features. Access millions of stock photos, premium templates, and advanced editing tools for professional-quality graphics.",
+      "price": 1499,
+      "category": "Design",
+      "tags": ["design", "graphics", "templates", "branding", "marketing"],
+      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.8,
+      "reviews": 8765,
+      "downloadUrl": "#",
+      "features": [
+        "100M+ premium photos",
+        "Premium templates",
+        "Brand kit",
+        "Background remover",
+        "Team collaboration"
+      ],
+      "fileSize": "80 MB",
+      "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
+      "lastUpdated": "2024-02-05"
     }
   ],
   "categories": [
     "AI Voice Tools",
-    "Design",
+    "Design", 
     "Education",
     "Marketing",
     "AI Tools",
@@ -274,6 +384,8 @@
     "Multimedia",
     "Development",
     "Business",
-    "Health"
+    "Health",
+    "Productivity",
+    "Entertainment"
   ]
 } 
