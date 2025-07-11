@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Productivity Master Suite",
+      "description": "Complete productivity toolkit with task management, time tracking, and goal setting features. Boost your efficiency by 300%.",
+      "price": 49.99,
+      "category": "Productivity",
+      "tags": ["productivity", "task-management", "time-tracking", "goals"],
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.8,
+      "reviews": 1247,
+      "downloadUrl": "#",
+      "features": [
+        "Advanced task management",
+        "Time tracking & analytics",
+        "Goal setting & progress tracking",
+        "Team collaboration tools",
+        "Custom reports & insights"
+      ],
+      "fileSize": "15 MB",
+      "compatibility": ["Windows", "macOS", "Linux"],
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Design Pro Toolkit",
+      "description": "Professional design assets bundle including templates, icons, fonts, and graphics for modern designers.",
+      "price": 79.99,
+      "category": "Design",
+      "tags": ["design", "templates", "icons", "graphics", "fonts"],
+      "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.9,
+      "reviews": 892,
+      "downloadUrl": "#",
+      "features": [
+        "500+ premium templates",
+        "1000+ vector icons",
+        "50+ professional fonts",
+        "High-resolution graphics",
+        "Commercial license included"
+      ],
+      "fileSize": "2.3 GB",
+      "compatibility": ["Photoshop", "Illustrator", "Figma", "Sketch"],
+      "lastUpdated": "2024-01-20"
+    },
+    {
+      "id": "3",
+      "name": "Code Mastery Course",
+      "description": "Comprehensive programming course covering modern web development with React, Node.js, and TypeScript.",
+      "price": 129.99,
+      "category": "Education",
+      "tags": ["programming", "react", "nodejs", "typescript", "web-development"],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.7,
+      "reviews": 2156,
+      "downloadUrl": "#",
+      "features": [
+        "40+ hours of video content",
+        "Hands-on projects",
+        "Code examples & exercises",
+        "Certificate of completion",
+        "Lifetime access"
+      ],
+      "fileSize": "8.5 GB",
+      "compatibility": ["Online", "Mobile App"],
+      "lastUpdated": "2024-01-18"
+    },
+    {
+      "id": "4",
+      "name": "Marketing Analytics Dashboard",
+      "description": "Advanced analytics tool for tracking marketing campaigns, customer behavior, and ROI across all channels.",
+      "price": 99.99,
+      "category": "Marketing",
+      "tags": ["marketing", "analytics", "dashboard", "roi", "campaigns"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.6,
+      "reviews": 654,
+      "downloadUrl": "#",
+      "features": [
+        "Real-time analytics",
+        "Multi-channel tracking",
+        "Custom KPI dashboards",
+        "Automated reporting",
+        "API integrations"
+      ],
+      "fileSize": "45 MB",
+      "compatibility": ["Web Browser", "Mobile App"],
+      "lastUpdated": "2024-01-22"
+    },
+    {
+      "id": "5",
+      "name": "AI Content Generator",
+      "description": "Powerful AI-driven content creation tool for blogs, social media, and marketing copy. Generate quality content in seconds.",
+      "price": 59.99,
+      "category": "AI Tools",
+      "tags": ["ai", "content", "writing", "marketing", "automation"],
+      "image": "https://images.unsplash.com/photo-1676299081847-824916de030a?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.5,
+      "reviews": 1089,
+      "downloadUrl": "#",
+      "features": [
+        "Multiple content types",
+        "SEO optimization",
+        "Tone & style customization",
+        "Bulk content generation",
+        "Plagiarism checking"
+      ],
+      "fileSize": "25 MB",
+      "compatibility": ["Web Browser", "API"],
+      "lastUpdated": "2024-01-25"
+    },
+    {
+      "id": "6",
+      "name": "Finance Tracker Pro",
+      "description": "Complete personal finance management solution with budgeting, expense tracking, and investment portfolio management.",
+      "price": 39.99,
+      "category": "Finance",
+      "tags": ["finance", "budgeting", "expenses", "investment", "tracking"],
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.4,
+      "reviews": 756,
+      "downloadUrl": "#",
+      "features": [
+        "Budget planning & tracking",
+        "Expense categorization",
+        "Investment portfolio analysis",
+        "Financial goal setting",
+        "Bank sync & automation"
+      ],
+      "fileSize": "35 MB",
+      "compatibility": ["iOS", "Android", "Web"],
+      "lastUpdated": "2024-01-12"
+    },
+    {
+      "id": "7",
+      "name": "Security Shield Suite",
+      "description": "Advanced cybersecurity toolkit with VPN, password manager, and threat detection for ultimate digital protection.",
+      "price": 89.99,
+      "category": "Security",
+      "tags": ["security", "vpn", "password", "protection", "privacy"],
+      "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.8,
+      "reviews": 1423,
+      "downloadUrl": "#",
+      "features": [
+        "Premium VPN service",
+        "Password manager",
+        "Real-time threat detection",
+        "Secure file storage",
+        "Identity monitoring"
+      ],
+      "fileSize": "120 MB",
+      "compatibility": ["Windows", "macOS", "iOS", "Android"],
+      "lastUpdated": "2024-01-28"
+    },
+    {
+      "id": "8",
+      "name": "Video Editor Supreme",
+      "description": "Professional video editing software with advanced effects, transitions, and 4K rendering capabilities.",
+      "price": 149.99,
+      "category": "Multimedia",
+      "tags": ["video", "editing", "effects", "4k", "professional"],
+      "image": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.7,
+      "reviews": 1876,
+      "downloadUrl": "#",
+      "features": [
+        "4K video support",
+        "Advanced effects library",
+        "Multi-track editing",
+        "Color grading tools",
+        "Audio enhancement"
+      ],
+      "fileSize": "1.2 GB",
+      "compatibility": ["Windows", "macOS"],
+      "lastUpdated": "2024-01-30"
+    },
+    {
+      "id": "9",
+      "name": "Social Media Manager",
+      "description": "Complete social media management platform for scheduling, analytics, and engagement across all major platforms.",
+      "price": 69.99,
+      "category": "Marketing",
+      "tags": ["social-media", "scheduling", "analytics", "engagement", "management"],
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.6,
+      "reviews": 943,
+      "downloadUrl": "#",
+      "features": [
+        "Multi-platform posting",
+        "Content scheduling",
+        "Engagement analytics",
+        "Hashtag optimization",
+        "Team collaboration"
+      ],
+      "fileSize": "55 MB",
+      "compatibility": ["Web Browser", "Mobile App"],
+      "lastUpdated": "2024-01-26"
+    },
+    {
+      "id": "10",
+      "name": "Developer Toolkit",
+      "description": "Essential development tools collection including code editors, debugging tools, and deployment utilities.",
+      "price": 79.99,
+      "category": "Development",
+      "tags": ["development", "coding", "debugging", "tools", "utilities"],
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.9,
+      "reviews": 1567,
+      "downloadUrl": "#",
+      "features": [
+        "Advanced code editor",
+        "Debugging utilities",
+        "Version control integration",
+        "Deployment automation",
+        "Performance monitoring"
+      ],
+      "fileSize": "200 MB",
+      "compatibility": ["Windows", "macOS", "Linux"],
+      "lastUpdated": "2024-01-24"
+    },
+    {
+      "id": "11",
+      "name": "E-commerce Builder",
+      "description": "No-code e-commerce website builder with payment integration, inventory management, and SEO optimization.",
+      "price": 99.99,
+      "category": "Business",
+      "tags": ["ecommerce", "website", "builder", "payments", "seo"],
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.5,
+      "reviews": 678,
+      "downloadUrl": "#",
+      "features": [
+        "Drag & drop builder",
+        "Payment gateway integration",
+        "Inventory management",
+        "SEO optimization tools",
+        "Mobile responsive themes"
+      ],
+      "fileSize": "80 MB",
+      "compatibility": ["Web Browser"],
+      "lastUpdated": "2024-01-21"
+    },
+    {
+      "id": "12",
+      "name": "Fitness Tracker Pro",
+      "description": "Comprehensive fitness and health tracking app with workout plans, nutrition tracking, and progress analytics.",
+      "price": 29.99,
+      "category": "Health",
+      "tags": ["fitness", "health", "workout", "nutrition", "tracking"],
+      "image": "https://images.unsplash.com/photo-1571019613914-85e2c9992a2b?w=400&h=300&fit=crop&crop=center",
+      "rating": 4.3,
+      "reviews": 1234,
+      "downloadUrl": "#",
+      "features": [
+        "Custom workout plans",
+        "Nutrition tracking",
+        "Progress analytics",
+        "Goal setting",
+        "Social sharing"
+      ],
+      "fileSize": "65 MB",
+      "compatibility": ["iOS", "Android"],
+      "lastUpdated": "2024-01-16"
+    }
+  ],
+  "categories": [
+    "Productivity",
+    "Design",
+    "Education",
+    "Marketing",
+    "AI Tools",
+    "Finance",
+    "Security",
+    "Multimedia",
+    "Development",
+    "Business",
+    "Health"
+  ]
+} 
