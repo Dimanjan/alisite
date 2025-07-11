@@ -1,8 +1,14 @@
 # DigitalHub - Digital Products Marketplace
 
-A modern, responsive frontend-only website for showcasing and browsing digital products. Built with React, TypeScript, and Tailwind CSS.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDimanjan%2Falisite)
 
-## 🚀 Features
+A modern, responsive frontend-only website for showcasing and browsing digital products. Built with React, TypeScript, and UnoCSS.
+
+## 🚀 Live Demo
+
+🌐 **[View Live Site](https://alisite.vercel.app)** *(Deploy to see your live URL)*
+
+## ✨ Features
 
 - **Product Showcase**: Beautiful grid layout with detailed product cards
 - **Advanced Filtering**: Search, category, price range, and tag filters
@@ -15,7 +21,7 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 19 + TypeScript
-- **Styling**: Tailwind CSS with custom design system
+- **Styling**: UnoCSS with Tailwind-compatible utilities
 - **Build Tool**: Vite
 - **Testing**: Vitest + React Testing Library
 - **Icons**: Lucide React
@@ -43,7 +49,22 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 - Mobile-friendly filter sidebar
 - Accessibility features
 
-## 🚀 Getting Started
+## 🚀 Quick Deploy to Vercel
+
+### One-Click Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDimanjan%2Falisite)
+
+### Manual Deploy
+1. Fork this repository
+2. Sign up at [Vercel](https://vercel.com)
+3. Click "New Project" and import your fork
+4. Vercel will auto-detect Vite and configure everything
+5. Click "Deploy" - Your site will be live in minutes!
+
+### Environment Setup (Optional)
+No environment variables are required for the basic setup. The site works out of the box!
+
+## 🏃‍♂️ Local Development
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -53,8 +74,8 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd alisagarwebsite
+git clone https://github.com/Dimanjan/alisite.git
+cd alisite
 ```
 
 2. Install dependencies
@@ -131,9 +152,9 @@ Products are stored in `src/data/products.json`. To add or modify products:
 ## 🎨 Customization
 
 ### Styling
-- Colors and design tokens are configured in `tailwind.config.js`
-- CSS variables are defined in `src/index.css`
-- Component styles use Tailwind utility classes
+- Colors and design tokens are configured in `uno.config.ts`
+- UnoCSS provides Tailwind-compatible utilities
+- Component styles use utility classes and shortcuts
 
 ### Adding New Categories
 1. Add products with new categories to `products.json`
@@ -157,18 +178,26 @@ npm test
 
 ## 🚀 Deployment
 
-### Build for Production
-```bash
-npm run build
-```
+### Vercel (Recommended)
+This project is optimized for Vercel deployment:
 
-The `dist` folder will contain the production-ready files.
+1. **Automatic**: Use the deploy button above
+2. **Manual**: Connect your GitHub repo to Vercel
+3. **CLI**: Install Vercel CLI and run `vercel`
 
-### Deployment Options
-- **Vercel**: Connect your GitHub repo for automatic deployments
+### Other Platforms
 - **Netlify**: Deploy the `dist` folder or connect via Git
 - **GitHub Pages**: Use GitHub Actions to deploy the build
 - **Any Static Host**: Upload the `dist` folder contents
+
+### Build Configuration
+```json
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
+```
 
 ## 🤝 Contributing
 
@@ -185,10 +214,14 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🔮 Future Enhancements
 
-- User authentication and favorites
-- Shopping cart functionality
-- Payment integration
-- Admin panel for product management
-- Advanced analytics
-- Multi-language support
-- Dark mode toggle
+- [ ] User authentication and favorites
+- [ ] Shopping cart functionality
+- [ ] Payment integration
+- [ ] Admin panel for product management
+- [ ] Advanced analytics
+- [ ] Multi-language support
+- [ ] Dark mode toggle
+
+---
+
+Built with ❤️ using modern web technologies
