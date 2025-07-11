@@ -330,7 +330,7 @@
     },
     {
       "id": "16",
-      "name": "GitHub Copilot",
+      "name": "GitHub Copilott",
       "description": "Boost your coding productivity with AI-powered code suggestions. GitHub Copilot understands your code and provides intelligent completions across dozens of programming languages.",
       "price": 1000,
       "category": "Development",
