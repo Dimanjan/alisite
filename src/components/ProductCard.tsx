@@ -22,7 +22,10 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
   };
 
   return (
-    <Link to={`/product/${product.id}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block">
+    <div
+      className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block cursor-pointer no-underline !no-underline"
+      onClick={() => window.location.assign(`/product/${product.id}`)}
+    >
       {/* Product Image */}
       <div className="relative overflow-hidden">
         <img
@@ -103,7 +106,7 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
         {/* Action Buttons */}
         <div className="flex space-x-2">
           <button
-            onClick={() => onViewDetails(product)}
+            onClick={e => { e.stopPropagation(); onViewDetails(product); }}
             className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center justify-center space-x-1 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 border-none !border-0 focus:!border-0 active:!border-0"
           >
             <Eye className="h-4 w-4" />
@@ -120,6 +123,6 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
           </a>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }; 
