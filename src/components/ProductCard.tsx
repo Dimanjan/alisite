@@ -1,4 +1,5 @@
 import { Star, MessageCircle, Eye } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import type { Product } from '../types';
 
 interface ProductCardProps {
@@ -21,7 +22,7 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
   };
 
   return (
-    <div className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <Link to={`/product/${product.id}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block">
       {/* Product Image */}
       <div className="relative overflow-hidden">
         <img
@@ -78,9 +79,9 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
 
         {/* Tags */}
         <div className="flex flex-wrap gap-1 mb-4">
-          {product.tags.slice(0, 3).map((tag) => (
+          {product.tags.slice(0, 3).map((tag, idx) => (
             <span
-              key={tag}
+              key={tag + '-' + idx}
               className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-md"
             >
               {tag}
@@ -119,6 +120,6 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
           </a>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }; 
