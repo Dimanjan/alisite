@@ -1,4 +1,4 @@
-import { Search, ShoppingBag } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface HeaderProps {
   onSearchChange: (query: string) => void;
