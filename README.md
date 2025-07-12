@@ -27,8 +27,8 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 - **Icons**: Lucide React
 - **Fonts**: Inter (Google Fonts)
  
- 
-## 📱 Features Overview
+
+## 📱 Features Overview:
 
 ### Product Management
 - Display products from JSON data file
