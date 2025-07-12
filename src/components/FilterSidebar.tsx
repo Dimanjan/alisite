@@ -63,7 +63,7 @@ export const FilterSidebar = ({
             <div className="flex items-center space-x-2">
               <button
                 onClick={onResetFilters}
-                className="text-sm text-blue-600 hover:text-blue-800 transition-colors"
+                className="text-sm text-blue-600 border border-blue-100 bg-white rounded-md px-3 py-1.5 font-medium shadow-sm hover:bg-blue-50 hover:text-blue-800 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
               >
                 Reset All
               </button>

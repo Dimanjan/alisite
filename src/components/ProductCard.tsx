@@ -53,11 +53,11 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
       {/* Product Info */}
       <div className="p-6">
         {/* Title and Price */}
-        <div className="flex items-start justify-between mb-2">
+        <div className="flex items-center justify-between mb-2">
           <h3 className="text-lg font-semibold text-gray-900 line-clamp-2 flex-1 mr-2">
             {product.name}
           </h3>
-          <div className="text-right">
+          <div className="text-right flex items-center">
             <span className="text-2xl font-bold text-blue-600">₹{product.price}</span>
           </div>
         </div>
@@ -103,7 +103,7 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
         <div className="flex space-x-2">
           <button
             onClick={() => onViewDetails(product)}
-            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center justify-center space-x-1"
+            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center justify-center space-x-1 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 border-none !border-0 focus:!border-0 active:!border-0"
           >
             <Eye className="h-4 w-4" />
             <span>View Details</span>
@@ -112,7 +112,7 @@ export const ProductCard = ({ product, onViewDetails }: ProductCardProps) => {
             href={`https://wa.me/918591587165?text=Hi, I'm interested in ${encodeURIComponent(product.name)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 border border-green-600 text-green-600 hover:bg-green-50 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1"
+            className="px-4 py-2 border border-green-600 text-green-600 hover:bg-green-50 rounded-lg text-sm font-medium transition-colors flex items-center space-x-1 no-underline !no-underline"
           >
             <MessageCircle className="h-4 w-4" />
             <span>Contact Sales</span>

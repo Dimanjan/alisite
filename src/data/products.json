@@ -225,8 +225,7 @@
       "price": 99.99,
       "category": "Business",
       "tags": ["ecommerce", "website", "builder", "payments", "seo"],
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center",
-      "rating": 4.5,
+      "image": "../../src/assets/zuck.jpg",
       "reviews": 678,
       "downloadUrl": "#",
       "features": [
@@ -247,7 +246,7 @@
       "price": 29.99,
       "category": "Health",
       "tags": ["fitness", "health", "workout", "nutrition", "tracking"],
-      "image": "https://images.unsplash.com/photo-1571019613914-85e2c9992a2b?w=400&h=300&fit=crop&crop=center",
+      "image": "../../src/assets/zuck.jpg",
       "rating": 4.3,
       "reviews": 1234,
       "downloadUrl": "#",

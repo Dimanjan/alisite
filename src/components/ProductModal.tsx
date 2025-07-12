@@ -37,9 +37,10 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors"
+            className="absolute -top-5 right-5 z-20 p-3 bg-white rounded-full shadow-lg border border-gray-200 hover:bg-blue-50 hover:text-blue-700 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+            aria-label="Close"
           >
-            <X className="h-5 w-5 text-gray-600" />
+            <X className="h-6 w-6 text-gray-600 group-hover:text-blue-700 transition-colors" />
           </button>
 
           {/* Content */}
@@ -72,7 +73,7 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
             <div>
               {/* Header */}
               <div className="mb-6">
-                <div className="flex items-start justify-between mb-2">
+                <div className="flex items-center justify-between mb-2">
                   <h1 className="text-2xl font-bold text-gray-900 flex-1 mr-4">
                     {product.name}
                   </h1>
@@ -163,7 +164,7 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
                   href={`https://wa.me/918591587165?text=Hi, I'm interested in ${encodeURIComponent(product.name)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
+                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2 no-underline !no-underline"
                 >
                   <MessageCircle className="h-5 w-5" />
                   <span>Contact Sales on WhatsApp</span>

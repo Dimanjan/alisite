@@ -13,12 +13,12 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
         <div className="flex items-center justify-between h-16">
           {/* Logo & Brand */}
           <div className="flex items-center space-x-3">
-            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
+            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 rounded-lg">
               <ShoppingBag className="h-6 w-6 text-white" />
             </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">DigitalHub</h1>
-              <p className="text-xs text-gray-500">Digital Tools & Resources</p>
+            <div className="flex flex-col gap-0">
+              <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">DigitalHub</h1>
+              <p className="text-xs text-gray-500 m-0 p-0">Digital Tools & Resources</p>
             </div>
           </div>
 
@@ -42,9 +42,6 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
               <span className="font-medium">{productsCount}</span>
               <span>products found</span>
             </div>
-            <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
-              <Menu className="h-5 w-5" />
-            </button>
           </div>
         </div>
       </div>
