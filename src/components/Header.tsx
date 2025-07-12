@@ -13,8 +13,8 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
         <div className="flex items-center justify-between h-16">
           {/* Logo & Brand */}
           <div className="flex items-center space-x-3">
-            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 rounded-lg">
-              <ShoppingBag className="h-6 w-6 text-white" />
+            <div className="flex items-center justify-center w-10 h-10 bg-transparent rounded-lg mr-4">
+              <img src="/MAF Account Creator-02.svg" alt="Site Logo" className="h-20 w-20" />
             </div>
             <div className="flex flex-col gap-0">
               <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">MAF ACCOUNT CRAFTER</h1>
