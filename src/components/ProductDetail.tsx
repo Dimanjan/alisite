@@ -22,6 +22,14 @@ export default function ProductDetail() {
       <div className="mb-2">Compatibility: {product.compatibility.join(', ')}</div>
       <div className="mb-2">File Size: {product.fileSize}</div>
       <div className="mb-2">Last Updated: {product.lastUpdated}</div>
+      <div className="mb-4">
+        <h2 className="text-lg font-semibold mb-2">Features</h2>
+        <ul className="list-disc list-inside text-gray-700">
+          {product.features.map((feature, i) => (
+            <li key={feature + '-' + i}>{feature}</li>
+          ))}
+        </ul>
+      </div>
       <div className="mt-6">
         <a
           href={`https://wa.me/918591587165?text=Hi, I'm interested in ${encodeURIComponent(product.name)}`}
