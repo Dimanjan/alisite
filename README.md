@@ -26,7 +26,8 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 - **Testing**: Vitest + React Testing Library
 - **Icons**: Lucide React
 - **Fonts**: Inter (Google Fonts)
-
+ 
+ 
 ## 📱 Features Overview
 
 ### Product Management
