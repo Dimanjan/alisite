@@ -14,7 +14,7 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
           {/* Logo & Brand */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center justify-center w-10 h-10 bg-transparent rounded-lg mr-4">
-              <img src="/logo.svg" alt="Site Logo" className="h-20 w-20" />
+              <img src="/logo.jpeg" alt="Site Logo" className="h-12 w-20" />
             </div>
             <div className="flex flex-col gap-0">
               <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">MAF ACCOUNT CRAFTER</h1>
