@@ -1,5 +1,4 @@
 import { Star, MessageCircle, Eye } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import type { Product } from '../types';
 
 interface ProductCardProps {
