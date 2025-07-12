@@ -1,4 +1,5 @@
 import { Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   onSearchChange: (query: string) => void;
@@ -12,7 +13,7 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo & Brand */}
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 cursor-pointer select-none no-underline !no-underline" tabIndex={0} aria-label="Go to homepage">
             <div className="flex items-center justify-center w-10 h-10 bg-transparent rounded-lg mr-4">
               <img src="/logo.jpeg" alt="Site Logo" className="h-12 w-20" />
             </div>
@@ -20,7 +21,7 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
               <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">MAF ACCOUNT CRAFTER</h1>
               <p className="text-xs text-gray-500 m-0 p-0">Digital Tools Seller</p>
             </div>
-          </div>
+          </Link>
 
           {/* Search Bar */}
           <div className="flex-1 max-w-2xl mx-8">
