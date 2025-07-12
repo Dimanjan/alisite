@@ -219,27 +219,6 @@
       "lastUpdated": "2024-01-24"
     },
     {
-      "id": "11",
-      "name": "E-commerce Builder",
-      "description": "No-code e-commerce website builder with payment integration, inventory management, and SEO optimization.",
-      "price": 99.99,
-      "category": "Business",
-      "tags": ["ecommerce", "website", "builder", "payments", "seo"],
-      "image": "../../src/assets/zuck.jpg",
-      "reviews": 678,
-      "downloadUrl": "#",
-      "features": [
-        "Drag & drop builder",
-        "Payment gateway integration",
-        "Inventory management",
-        "SEO optimization tools",
-        "Mobile responsive themes"
-      ],
-      "fileSize": "80 MB",
-      "compatibility": ["Web Browser"],
-      "lastUpdated": "2024-01-21"
-    },
-    {
       "id": "12",
       "name": "Fitness Tracker Pro",
       "description": "Comprehensive fitness and health tracking app with workout plans, nutrition tracking, and progress analytics.",
