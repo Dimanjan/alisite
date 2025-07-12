@@ -17,8 +17,8 @@ export const Header = ({ onSearchChange, searchQuery, productsCount }: HeaderPro
               <ShoppingBag className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col gap-0">
-              <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">DigitalHub</h1>
-              <p className="text-xs text-gray-500 m-0 p-0">Digital Tools & Resources</p>
+              <h1 className="text-xl font-bold text-gray-900 leading-none m-0 p-0">MAF ACCOUNT CRAFTER</h1>
+              <p className="text-xs text-gray-500 m-0 p-0">Digital Tools Seller</p>
             </div>
           </div>
 
