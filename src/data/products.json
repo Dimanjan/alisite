@@ -225,7 +225,7 @@
       "price": 29.99,
       "category": "Health",
       "tags": ["fitness", "health", "workout", "nutrition", "tracking"],
-      "image": "../../src/assets/zuck.jpg",
+      "image": "src/assets/zuck.jpg",
       "rating": 4.3,
       "reviews": 1234,
       "downloadUrl": "#",
