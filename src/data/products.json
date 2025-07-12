@@ -7,7 +7,7 @@
       "price": 1200,
       "category": "AI Tools",
       "tags": ["Ai-Tools", "Productivity-Tools", "Writing-Assistants"],
-      "image": "public/openai-chatgpt-CTA.png",
+      "image": "/openai-chatgpt-CTA.png",
       "rating": 4.8,
       "reviews": 1247,
       "downloadUrl": "#",
