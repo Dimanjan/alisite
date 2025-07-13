@@ -6,7 +6,7 @@ A modern, responsive frontend-only website for showcasing and browsing digital p
 
 ## 🚀 Live Demo
 
-🌐 **[View Live Site](https://alisite.vercel.app)** *(Deploy to see your live URL)*
+🌐 **[View Live Site](https://mafcraft.vercel.app)** *(Deploy to see your live URL)*
 
 ## ✨ Features
 

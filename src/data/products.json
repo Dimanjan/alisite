@@ -421,29 +421,6 @@
       ],
       "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
       "lastUpdated": "2024-02-05"
-    },
-    {
-      "id": "99",
-      "name": "Test Future Deal",
-      "description": "This is a test product to verify the countdown timer for future deals. The offer should always be visible.",
-      "price": 999,
-      "originalPrice": 1999,
-      "discountBadge": "-50% OFF",
-      "dealEndTime": "2099-12-31T23:59:59Z",
-      "category": "Testing",
-      "tags": ["test", "future", "countdown"],
-      "image": "/test-product.png",
-      "rating": 5.0,
-      "reviews": 1,
-      "downloadUrl": "#",
-      "features": [
-        "Always visible countdown",
-        "Easy to find",
-        "For QA and debugging"
-      ],
-      "fileSize": "1 MB",
-      "compatibility": ["Web", "All Devices"],
-      "lastUpdated": "2024-06-01"
     }
   ],
   "categories": [
