@@ -423,6 +423,31 @@
       "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
       "lastUpdated": "2024-02-05"
     }
+    {
+    "id": "19",
+      "name": "Higgsfield ai– 1 Month Pro plan",
+      "description": "For creators who want power and performance without going overboard.
+Get access to high-quality AI video generation tools designed to bring your vision to life. Ideal for individuals, freelancers, and small teams.",
+      "price": 1300,
+      "originalPrice": 2600,
+      "discountBadge": "-50% OFF",
+      "dealEndTime": "2025-07-16T23:59:59Z",
+      "category": "AI Tools",
+      "tags": ["Advanced AI Tools", "Realistic AI Video", "Share Anywhere"],
+      "image": "/NordVPN.jpg",
+      "rating": 4.8,
+      "reviews": 1560,
+      "downloadUrl": "#",
+      "features": [
+        "High-resolution video generation",
+        "Commercial use license",
+        "No Watermarks",
+        "Cinematic Visuals",
+        "Activation on personal mail"
+      ],
+      "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
+      "lastUpdated": "2024-02-05"
+    }
   ],
   "categories": [
     "AI Voice Tools",
