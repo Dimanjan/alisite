@@ -429,6 +429,32 @@
       "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
       "lastUpdated": "2024-02-05"
     }
+    {
+    
+      "id": "2",
+      "name": "ElevenLab 1 Month",
+      "description": "Unlock premium voice AI with the Creator Plan from ElevenLabs – now available with flexible 1-month access. Perfect for content creators, voice artists, developers, and entrepreneurs who need high-quality text-to-speech and voice cloning at an affordable price..",
+      "price": 599,
+      "originalPrice": 1100,
+      "discountBadge": "-75% OFF",
+      "category": "AI Voice Tools",
+      "tags": ["VoiceAI", "TextToSpeech", "VoiceCloning", "AIVoices"],
+      "image": "/Featured-image-550-X-340-6.jpg",
+      "rating": 4.9,
+      "reviews": 892,
+      "downloadUrl": "#",
+      "features": [
+        "Professional Voice Cloning",
+        "High-Quality Audio Output",
+        "100,000 Characters per Month",
+        "Multilingual Text-to-Speech",
+        "Commercial license included",
+        "Secure & Private",
+        "Activation on personal mail"
+      ],
+      "compatibility": ["Audio Editing Software", "creators", "Voice AI"],
+      "lastUpdated": "2025-07-25"
+    },
   ],
   "categories": [
     "AI Voice Tools",
