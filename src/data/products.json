@@ -1,5 +1,5 @@
 {
-  "products":
+  "products":[
     {
       "id": "1",
       "name": "Chatgpt Plus Monthly",
@@ -454,7 +454,8 @@
       "compatibility": ["Audio Editing Software", "creators", "Voice AI"],
       "lastUpdated": "2025-07-25"
     },
-  ],
+   ],
+}
   "categories": [
     "AI Voice Tools",
     "Design", 
