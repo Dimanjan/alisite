@@ -428,7 +428,7 @@
       ],
       "compatibility": ["Web", "iOS", "Android", "Windows", "macOS"],
       "lastUpdated": "2024-02-05"
-    }
+    },
     {
      "id": "20",
       "name": "ElevenLab 1 Month",
@@ -455,7 +455,6 @@
       "lastUpdated": "2025-07-25"
     },
    ],
-}
   "categories": [
     "AI Voice Tools",
     "Design", 
